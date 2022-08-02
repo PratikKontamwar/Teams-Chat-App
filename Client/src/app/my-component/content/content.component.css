@@ -1,0 +1,53 @@
+#item3 {
+    background-color: grey;
+    border: 2px solid rgb(75, 67, 67);
+    padding: 3px;
+    width: 100%;
+    height: 120%;
+}
+
+#upper-message {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.join {
+    display: flex;
+    flex-direction: row-reverse;
+    display: inline;
+    float: right;
+}
+
+span {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 890px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 25px;
+}
+
+#bt {
+    position: fixed;
+    bottom: 0px;
+
+}
+
+.list-group-item-dark {
+    color: #141619;
+    background-color: #838383;
+    font-family: cursive;
+}

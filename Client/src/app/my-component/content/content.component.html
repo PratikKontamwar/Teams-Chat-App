@@ -1,0 +1,24 @@
+<!-- <p>content works! use for chat</p> -->
+
+<div class="item" id="item3">
+    <span id="upper-message">
+        {{inputContent.sideBar2}}
+    </span>
+    <a href=""><span>chat</span></a>
+    <a href=""><span>Files</span></a>
+    <a href=""><span>more</span></a>
+
+    <span class="join"><button type="button" class="btn btn-primary">Join</button></span>
+    <hr>
+    <div *ngIf="showMessage">
+        <p *ngFor="let item of items">
+            <span class="list-group-item list-group-item-action list-group-item-dark" >{{item.message}} </span>
+        </p>
+    </div>
+    <form [formGroup]="userMessage">
+        <div class="form-group">
+            <input formControlName="inputMessage" type="text" class="form-control" id="inputMessage" name="inputMessage" placeholder="Type a new message">
+        </div>
+        <button type="button" id="bt" class="btn btn-primary btn-sm" (click)="sendMessage()">Send</button>
+    </form>
+</div>

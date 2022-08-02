@@ -1,0 +1,75 @@
+.bottom-radious {
+    border-radius: 0px 0px 40px 40px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.d-col {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo{
+    width: 128px;
+}
+
+.nav-bg{
+    background: #c8d1e2;
+}
+
+.bg-blue {
+    background: #444791;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+.large-font{
+    font-size: large;
+}
+.profile-img {
+    width: 170px;
+}
+
+.btn-size {
+    border: none;
+    outline: none;
+    /* height: 50px; */
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+hr {
+    width: 356px;
+    border: 2px solid black;
+}

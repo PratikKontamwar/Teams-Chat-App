@@ -1,0 +1,21 @@
+<!-- <p>left-rail works!</p> -->
+
+
+<div class="item" id="item2">
+    <span id="chat">{{myinputMsg}}</span>
+    <span id="add"><button id="add" type="button" class="btn btn-primary" (click)="onAdd()">Add</button></span>
+    <hr>
+
+    <!-- <ul>
+        <li *ngFor="let activity in activities">
+            {{ activity.name }}
+        </li>
+    </ul> -->
+
+
+    <p *ngFor="let item of items; let i = index">
+        <span class="btn btn-secondary list-group-item list-group-item-action list-group-item-dark"  (click)="switchToMenu(item.name)">{{item.name}} </span>
+    </p>
+
+
+</div>

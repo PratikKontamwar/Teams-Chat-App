@@ -1,2 +1,3 @@
 # Teams Chat App
- MEAN stack chatting app
+
+MEAN stack chatting app

@@ -1,0 +1,42 @@
+<!-- <p>app-header-bar works! use for navbar of app</p> -->
+<nav class="navbar navbar-dark app-header-bar">
+    <div class="container-fluid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-grid-3x3-gap ms-4" viewBox="0 0 16 16">
+            <path
+                d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z" />
+        </svg>
+        <a class="navbar-brand ms-5 ps-5"><b>Microsoft Teams</b></a>
+        <form class="search-bar">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-three-dots ms-5 me-3" viewBox="0 0 16 16">
+            <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+        </svg>
+
+
+        <div class="nav-item dropdown me-5">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="material-symbols-outlined size-48 ms-3 me-3">
+                    account_circle
+                </span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" routerLink="/userprofile">{{name}}</a></li>
+                <li><a class="dropdown-item">{{email}}</a></li>
+                <li><a class="dropdown-item" (click)="onLogout()">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- <a routerLink="/userprofile">
+            <span class="material-symbols-outlined size-48 ms-3 me-3">
+                account_circle
+            </span>
+        </a> -->
+
+    </div>
+</nav>

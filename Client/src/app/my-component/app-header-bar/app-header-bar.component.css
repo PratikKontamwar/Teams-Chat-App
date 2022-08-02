@@ -1,0 +1,46 @@
+.app-header-bar {
+    -webkit-app-region: drag;
+    background: #444791;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navbar-brand {
+    flex: auto;
+}
+
+.search-bar {
+    border: 0;
+    background: #edebe9;
+    border-radius: 0.4rem;
+    color: #fff;
+    margin-bottom: 0.1rem;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+span.size-48 {
+    font-size: 48px;
+    font-variation-settings: 'OPSZ' 48;
+}

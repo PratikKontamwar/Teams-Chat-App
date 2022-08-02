@@ -1,0 +1,24 @@
+
+#item2 {
+    background-color: grey;
+    border: 2px solid rgb(75, 67, 67);
+    padding: 3px;
+    width: 100%;
+    height: 120%;
+}
+
+#chat{
+    font-weight: bold;
+    font-size: 25px;
+}
+#add{
+    display: flex;
+    flex-direction: row-reverse;
+    display: inline;
+    float: right;
+}
+.list-group-item-dark {
+    color: #141619;
+    background-color: #838383;
+    font-family:cursive;
+}

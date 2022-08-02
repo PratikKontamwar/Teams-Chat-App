@@ -1,0 +1,19 @@
+<app-app-header-bar></app-app-header-bar>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-1">
+            <app-app-bar (onchange)="onChangeSidebarOne($event)"></app-app-bar>
+        </div>
+
+        <div class="col-3">
+            <app-left-rail [myinputMsg]="activeSidebarItem" (onChangeInMenu)="onChangesContentHeader($event)">
+            </app-left-rail>
+        </div>
+
+        <div class="col-8">
+            <app-content [inputContent]="activeContentHeader"></app-content>
+        </div>
+
+    </div>
+</div>
